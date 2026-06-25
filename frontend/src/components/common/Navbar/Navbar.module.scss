@@ -1,0 +1,20 @@
+.appBar {
+  background: #1A1A1A !important;
+  border-bottom: none;
+}
+
+.navLinks {
+  display: flex;
+  gap: 4px;
+}
+
+.drawer {
+  width: 260px;
+}
+
+.drawerHeader {
+  padding: 20px 16px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}

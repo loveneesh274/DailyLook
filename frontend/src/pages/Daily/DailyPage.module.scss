@@ -1,0 +1,42 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.topSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.weatherBanner {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 20px;
+  background: linear-gradient(135deg, #E8EAF6 0%, #EDE7F6 100%);
+  border-radius: 16px !important;
+  border: 1px solid #C5CAE9;
+}
+
+.loadingWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.emptyState {
+  text-align: center;
+  padding: 60px 24px;
+  background: #FAFAFA;
+  border-radius: 16px;
+  border: 2px dashed #E0E0E0;
+}
+
+.outfitList {
+  padding-bottom: 24px;
+}

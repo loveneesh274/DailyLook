@@ -1,0 +1,26 @@
+.root {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1A1A1A 0%, #333333 100%);
+  padding: 16px;
+  position: relative;
+}
+
+.backBtn {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+}
+
+.card {
+  width: 100%;
+  max-width: 440px;
+  border-radius: 24px !important;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3) !important;
+}
+
+.content {
+  padding: 48px 40px !important;
+}

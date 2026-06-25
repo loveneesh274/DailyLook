@@ -1,0 +1,79 @@
+.root {
+  border: 1px solid #F0F0F5;
+  transition: box-shadow 0.2s ease;
+
+  &:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1) !important;
+  }
+}
+
+.content {
+  padding: 20px !important;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.garments {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 4px 0;
+}
+
+.garmentPill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  width: 80px;
+}
+
+.pillImage {
+  width: 72px;
+  height: 72px;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 1px solid #eee;
+}
+
+.pillPlaceholder {
+  width: 72px;
+  height: 72px;
+  border-radius: 10px;
+  background: #F5F5F7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #eee;
+}
+
+.aiSection {
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+  padding: 8px 12px;
+  background: #F3F4FF;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.tipSection {
+  padding: 8px 12px;
+  background: #FFF8E1;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 8px;
+}
