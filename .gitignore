@@ -4,7 +4,7 @@ __pycache__/
 *$py.class
 *.so
 .Python
-# .env
+.env
 .venv
 env/
 venv/
@@ -43,5 +43,5 @@ Thumbs.db
 *.log
 logs/
 
-# Uploads
-uploads/
+# # Uploads
+# uploads/
